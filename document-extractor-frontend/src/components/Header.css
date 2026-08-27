@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+  padding: 64px 24px 40px;
+}
+
+.header__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 12px;
+}
+
+.header__title {
+  font-size: 40px;
+  color: var(--color-ink);
+}
+
+.header__subtitle {
+  margin: 14px auto 0;
+  max-width: 480px;
+  color: var(--color-ink-soft);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 48px 20px 32px;
+  }
+  .header__title {
+    font-size: 30px;
+  }
+}

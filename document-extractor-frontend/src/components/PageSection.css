@@ -1,0 +1,49 @@
+.page-section {
+  padding: 28px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.page-section:first-child {
+  border-top: none;
+  padding-top: 8px;
+}
+
+.page-section__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.page-section__number {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.page-section__title {
+  font-size: 20px;
+  color: var(--color-ink);
+}
+
+.page-section__count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-ink-faint);
+}
+
+.page-section__tables {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.page-section__none {
+  color: var(--color-ink-faint);
+  font-size: 13px;
+  margin: 0;
+}

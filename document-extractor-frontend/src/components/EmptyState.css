@@ -1,0 +1,20 @@
+.empty-state {
+  max-width: 420px;
+  margin: 32px auto 0;
+  padding: 28px 24px;
+  text-align: center;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.empty-state__text {
+  margin: 0;
+  color: var(--color-ink-faint);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.empty-state__accent {
+  color: var(--color-accent);
+  font-weight: 500;
+}

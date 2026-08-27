@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+paddle_env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Node dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Runtime/generated files
+uploads/
+outputs/
+crops/
+ppstructure_output/
+
+# Environment / secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+
+# Temporary/archive files
+*.zip
+# Large model files
+document-extractor-backend/models/stamp_model/model.safetensors

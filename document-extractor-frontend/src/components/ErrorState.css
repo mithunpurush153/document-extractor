@@ -1,0 +1,25 @@
+.error-state {
+  max-width: 480px;
+  margin: 24px auto 0;
+  padding: 20px 22px;
+  background: var(--color-error-soft);
+  border: 1px solid rgba(199, 62, 62, 0.25);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.error-state__label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-error);
+  margin-bottom: 8px;
+}
+
+.error-state__message {
+  margin: 0 0 16px;
+  color: var(--color-ink);
+  font-size: 14px;
+  line-height: 1.5;
+}

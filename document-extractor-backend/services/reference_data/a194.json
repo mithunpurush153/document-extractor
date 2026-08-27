@@ -1,0 +1,85 @@
+{
+  "ASTM": {
+    "standard": "ASTM A194/A194M",
+    "reference_designation": "A194"
+  },
+  "grades": {
+    "8M": {
+      "grade_symbol": "8M",
+      "grade_designation": "ASTM A194/A194M Grade 8M",
+      "material_type": "Austenitic Stainless Steel",
+      "chemical_composition": {
+        "carbon": {
+          "element_name": "Carbon",
+          "symbol": "%C",
+          "type": "MAX",
+          "min_value": null,
+          "max_value": 0.08,
+          "unit": "%"
+        },
+        "manganese": {
+          "element_name": "Manganese",
+          "symbol": "%Mn",
+          "type": "MAX",
+          "min_value": null,
+          "max_value": 2.00,
+          "unit": "%"
+        },
+        "phosphorus": {
+          "element_name": "Phosphorus",
+          "symbol": "%P",
+          "type": "MAX",
+          "min_value": null,
+          "max_value": 0.045,
+          "unit": "%"
+        },
+        "sulfur": {
+          "element_name": "Sulfur",
+          "symbol": "%S",
+          "type": "MAX",
+          "min_value": null,
+          "max_value": 0.030,
+          "unit": "%"
+        },
+        "silicon": {
+          "element_name": "Silicon",
+          "symbol": "%Si",
+          "type": "MAX",
+          "min_value": null,
+          "max_value": 1.00,
+          "unit": "%"
+        },
+        "chromium": {
+          "element_name": "Chromium",
+          "symbol": "%Cr",
+          "type": "RANGE",
+          "min_value": 16.0,
+          "max_value": 18.0,
+          "unit": "%"
+        },
+        "nickel": {
+          "element_name": "Nickel",
+          "symbol": "Ni%",
+          "type": "RANGE",
+          "min_value": 10.0,
+          "max_value": 14.0,
+          "unit": "%"
+        },
+        "molybdenum": {
+          "element_name": "Molybdenum",
+          "symbol": "Mo",
+          "type": "RANGE",
+          "min_value": 2.00,
+          "max_value": 3.00,
+          "unit": "%"
+        },
+        "nitrogen": {
+          "element_name": "Nitrogen",
+          "symbol": "N",
+          "type": "NOT_REPORTED",
+          "note": "Supplier documents do not report nitrogen. Mark as NOT_REPORTED if missing."
+        }
+      }
+    }
+  }
+}
